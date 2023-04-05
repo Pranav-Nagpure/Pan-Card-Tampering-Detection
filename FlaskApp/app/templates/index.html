@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <title>
+    Pan Card Tampering Detection
+  </title>
+</head>
+<body>
+  
+  <h1>Pan Card Tampering Detection</h1>
+  
+  <div class>
+    <form action='/' method="post" enctype="multipart/form-data">
+      <input type = "file" id="file_upload" name="file_upload"/>
+      <button type = submit>Check Tampering</button>
+    </form>
+  </div>
+
+  <div>
+    <h5>{{score}}</h5>
+  </div>
+
+</body>
+</html>

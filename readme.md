@@ -2,7 +2,7 @@ Steps to run the application:
 Step 1:	Create a copy of the project  
 Step 2: Open command prompt and change current path to FlaskApp folder (where you can find 'app.py' file)  
 Step 3: If you wish to use a virtual python environment, create it using the command below-  
-python -m venv environment_name
+python -m venv environment_name  
 Step 4: If using virtual environment, activate it using the command below-  
 environment_name\Scripts\activate  
 Step 5: Use command below to install required dependencies-  

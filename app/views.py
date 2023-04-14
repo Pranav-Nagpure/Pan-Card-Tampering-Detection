@@ -54,4 +54,7 @@ def index():
         Image.fromarray(binary_img).save(os.path.join(
             app.config['GENERATED_FILE'], 'binary_image.jpg'))
 
-        return render_template('index.html', score=f'{str(round(score * 100, 2))}% match')
+        if score < 0.75:
+            return render_template('index.html', result='Card is Tampered')
+        else:
+            return render_template('index.html', result='Card is NOT Tampered')

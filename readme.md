@@ -1,16 +1,82 @@
-Steps to run the application:  
-Step 1:	Create a copy of the project  
-Step 2: Open command prompt and change current path to FlaskApp folder (where you can find 'app.py' file)  
-Step 3: If you wish to use a virtual python environment, create it using the command below-  
-python -m venv environment_name  
-Step 4: If using virtual environment, activate it using the command below-  
-environment_name\Scripts\activate  
-Step 5: Use command below to install required dependencies-  
-python -m pip install -r requirements.txt  
-Step 6: Run application by command-  
-python app.py  
-Step 7: You will get a url, open it in a browser  
-Step 8: You have sample_images folder where you can get images for testing  
-Step 9: Back in command prompt, use CTRL+C to quit  
-Step 10: If using virtual environment, deactivate it using the command below-  
-deactivate  
+<a name="readme-top"></a>
+
+<div align="center">
+
+# __Project Title__
+
+### Built Using
+  
+[![Python][python-shield]][python-url]
+[![html-css-js][html-css-js-shield]][html-css-js-url]
+[![Flask][flask-shield]][flask-url]
+[![ScikitImage][scikit-image-shield]][scikit-image-url]
+
+</div>
+
+## __About__
+
+This is a simple application to detect tampering of Pan Cards using <a href="https://en.wikipedia.org/wiki/Structural_similarity#:~:text=The%20structural%20similarity%20index%20measure,the%20similarity%20between%20two%20images.">Structural Similarity Index Measure (SSIM)</a>. It is used to measure similarity of two images. A Pan Card is tampered if it's SSIM value with original Pan Card template is low.
+
+Original Pan Card template: https://www.thestatesman.com/wp-content/uploads/2019/07/pan-card.jpg
+Tampered Pan Card Sample: https://assets1.cleartax-cdn.com/s/img/20170526124335/Pan4.png
+
+See the code explaination with <a href="https://github.com/Pranav-Nagpure/Pan-Card-Tampering-Detection-NB">IPython Notebook</a>
+
+## __Getting Started__
+
+This Project is Built With [![Anaconda][anaconda-shield]][anaconda-url] [![VSCode][vscode-shield]][vscode-url]
+
+### __Installation__
+To use the app on local machine, open Anaconda Prompt and run the following commands:
+
+1. Clone the Repository
+```sh
+git clone https://github.com/Pranav-Nagpure/Support-Repository.git
+```
+
+2. Change Working Directory
+```sh
+cd Pan-Card-Tampering-Detection
+```
+
+3. If needed create a Virtual Environment and activate it
+```sh
+conda create -n environment_name python=3.10
+conda activate environment_name
+```
+
+4. Install the requirements
+```sh
+python -m pip install -r requirements.txt
+```
+
+5. Run the App
+```sh
+python app.py
+```
+
+6. Open the URL generated in a browser to use the App
+
+7. You can use images in the sample_images folder
+
+<p align="right">
+(<a href="#readme-top">back to top</a>)
+</p>
+
+[python-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/python-shield.png "Python"
+[python-url]: https://www.python.org
+
+[html-css-js-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/html-css-js-shield.png
+[html-css-js-url]: https://html.spec.whatwg.org "HTML | CSS | JavaScript"
+
+[anaconda-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/anaconda-shield.png
+[anaconda-url]: https://www.anaconda.com "Anaconda"
+
+[vscode-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/vscode-shield.png
+[vscode-url]: https://code.visualstudio.com "VSCode"
+
+[flask-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/flask-shield.png "Flask"
+[flask-url]: https://flask.palletsprojects.com
+
+[scikit-image-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/scikit-image-shield.png "Scikit-Image"
+[scikit-image-url]: https://scikit-image.org

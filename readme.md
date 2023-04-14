@@ -2,7 +2,7 @@
 
 <div align="center">
 
-# __Project Title__
+# __Pan Card Tampering Detection__
 
 ### Built Using
   

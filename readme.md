@@ -11,20 +11,23 @@
 [![Flask][flask-shield]][flask-url]
 [![ScikitImage][scikit-image-shield]][scikit-image-url]
 
+Visit the <a href="https://pancard-tampering-detector.onrender.com">Web Application</a> deployed on render
+
 </div>
 
 ## __About__
-
+<p align="justify">
 This is a simple application to detect tampering of Pan Cards using <a href="https://en.wikipedia.org/wiki/Structural_similarity#:~:text=The%20structural%20similarity%20index%20measure,the%20similarity%20between%20two%20images.">Structural Similarity Index Measure (SSIM)</a>. It is used to measure similarity of two images. A Pan Card is tampered if it's SSIM value with original Pan Card template is low.
 
 Original Pan Card template: https://www.thestatesman.com/wp-content/uploads/2019/07/pan-card.jpg
 Tampered Pan Card Sample: https://assets1.cleartax-cdn.com/s/img/20170526124335/Pan4.png
 
-See the code explaination with <a href="https://github.com/Pranav-Nagpure/Pan-Card-Tampering-Detection-NB">IPython Notebook</a>
+See the implementation details with <a href="https://github.com/Pranav-Nagpure/Pan-Card-Tampering-Detection-NB">IPython Notebook</a>
+<p>
 
 ## __Getting Started__
 
-This Project is Built With [![Anaconda][anaconda-shield]][anaconda-url] [![VSCode][vscode-shield]][vscode-url]
+This Project is Built With [![Anaconda][anaconda-shield]][anaconda-url] [![VSCode][vscode-shield]][vscode-url] [![Render][render-shield]][render-url]
 
 ### __Installation__
 To use the app on local machine, open Anaconda Prompt and run the following commands:
@@ -74,6 +77,9 @@ python app.py
 
 [vscode-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/vscode-shield.png
 [vscode-url]: https://code.visualstudio.com "VSCode"
+
+[render-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/render-shield.png
+[render-url]: https://render.com "Render"
 
 [flask-shield]: https://raw.githubusercontent.com/Pranav-Nagpure/Support-Repository/master/images/flask-shield.png "Flask"
 [flask-url]: https://flask.palletsprojects.com

@@ -34,7 +34,7 @@ To use the app on local machine, open Anaconda Prompt and run the following comm
 
 1. Clone the Repository
 ```sh
-git clone https://github.com/Pranav-Nagpure/Support-Repository.git
+git clone https://github.com/Pranav-Nagpure/Pan-Card-Tampering-Detection.git
 ```
 
 2. Change Working Directory

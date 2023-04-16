@@ -23,7 +23,7 @@ Original Pan Card template: https://www.thestatesman.com/wp-content/uploads/2019
 Tampered Pan Card Sample: https://assets1.cleartax-cdn.com/s/img/20170526124335/Pan4.png
 
 See the implementation details with <a href="https://github.com/Pranav-Nagpure/Pan-Card-Tampering-Detection-NB">IPython Notebook</a>
-<p>
+</p>
 
 ## __Getting Started__
 

@@ -20,6 +20,7 @@ Visit the <a href="https://pancard-tampering-detector.onrender.com">Web Applicat
 This is a simple application to detect tampering of Pan Cards using <a href="https://en.wikipedia.org/wiki/Structural_similarity#:~:text=The%20structural%20similarity%20index%20measure,the%20similarity%20between%20two%20images.">Structural Similarity Index Measure (SSIM)</a>. It is used to measure similarity of two images. A Pan Card is tampered if it's SSIM value with original Pan Card template is low.
 
 Original Pan Card template: https://www.thestatesman.com/wp-content/uploads/2019/07/pan-card.jpg
+
 Tampered Pan Card Sample: https://assets1.cleartax-cdn.com/s/img/20170526124335/Pan4.png
 
 See the implementation details with <a href="https://github.com/Pranav-Nagpure/Pan-Card-Tampering-Detection-NB">IPython Notebook</a>

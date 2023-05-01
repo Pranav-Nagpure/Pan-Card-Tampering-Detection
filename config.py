@@ -19,7 +19,7 @@ class ProductionConfig(Config):
 class DevelopmentConfig(Config):
     DEBUG = True
 
-    DB_NAME = 'develpoment-db'
+    DB_NAME = 'development-db'
     DB_USERNAME = 'root'
     DB_PASSWORD = 'password'
 
